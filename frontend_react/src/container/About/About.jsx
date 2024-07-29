@@ -5,7 +5,7 @@ import { AppWrap, MotionWrap } from '../../wrapper';
 import './About.scss';
 import { urlFor, client } from '../../client';
 
-import cv from './Lebenslauf von Luca Bäck.pdf'
+//import cv from './Lebenslauf von Luca Bäck.pdf'
 
 const About = () => {
   const [abouts, setAbouts] = useState([]);
