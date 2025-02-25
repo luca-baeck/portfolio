@@ -69,7 +69,7 @@
           height: 15px;
           width: 15px;
           border-radius: 10px;
-          background-color: var(--black-color);
+          background-color: var(--secondary-color);
           cursor: pointer;
           margin-top: -3.5px;
         }
@@ -90,7 +90,7 @@
 .app_algorithms-setting {
     padding: 0.5rem 1rem;
     border-radius: 0.5rem;
-    background-color: var(--secondary-color);
+    background-color: var(--lightGray-color);
     font-weight: 800;
 
     cursor: pointer;
@@ -102,7 +102,7 @@
     }
 
     &:hover {
-      background-color: var(--lightGray-color);
+      background-color: var(--secondary-color);
 
       p {
           color: var(--white-color);
@@ -126,7 +126,7 @@
 }
 
 .app__algorithms-portfolio div {
-    background-color: var(--lightGray-color);
+    background-color: var(--secondary-color);
     display: inline-block;
     margin: 0;
     margin-left: 0.1vw;
@@ -137,7 +137,7 @@
     position: relative;
 
     p {
-        color: var(--black-color);
+        color: var(--white-color);
         font-weight: bolder;
         text-align: center;
         font-size: 0.5em;

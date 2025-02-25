@@ -3,14 +3,16 @@
 :root {
   --font-base: "DM Sans", sans-serif;
 
-  --primary-color: #2b262d;
-  --secondary-color: #8024c4;
-  --black-color: #f2ebe5;
-  --lightGray-color: #647295;
-  --gray-color: #8024c4;
-  --brown-color: #8024c4;
-  --white-color: #2b262d;
+  --primary-color: #f9f9fb; /* Sehr helles Grau für einen sanften White Mode */
+  --secondary-color: #1e6ed8; /* Modernes, kräftiges Blau für Akzente */
+  --black-color: #1e293b; /* Dunkles Blau-Grau für Texte */
+  --lightGray-color: #e5e7eb; /* Sanftes, helles Grau für dezente UI-Elemente */
+  --gray-color: #8ca1c3; /* Weiches Grau-Blau für einen modernen Look */
+  --brown-color: #2563eb; /* Etwas kräftigeres Blau als Alternative */
+  --white-color: #ffffff; /* Reinweiß für starke Kontraste */
 }
+
+
 
 * {
   box-sizing: border-box;

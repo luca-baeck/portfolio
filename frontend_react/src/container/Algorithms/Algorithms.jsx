@@ -180,7 +180,7 @@ const Algorithms = () => {
                     resetBars()
                 }
                 b.style.background = '#A8A8A8';
-                a.style.background = '#8024c4';
+                a.style.background = '#1e6ed8';
             }else {
                 if(cur.type === 'swap') {
                     //swap
@@ -243,7 +243,7 @@ const Algorithms = () => {
                 a = bars[cur.i];
                 b = bars[cur.j];
                 a.style.background = '#A8A8A8';
-                b.style.background = '#8024c4';
+                b.style.background = '#1e6ed8';
             }else {
                 if(cur.type === 'swap') {
                     //swap
@@ -309,8 +309,8 @@ const Algorithms = () => {
                 //compare
                 a = bars[cur.i];
                 b = bars[cur.j];
-                a.style.background = '#8024c4';
-                b.style.background = '#8024c4';
+                a.style.background = '#1e6ed8';
+                b.style.background = '#1e6ed8';
             }else {
                 if(cur.type === 'swap') {
                     //swap

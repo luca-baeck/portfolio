@@ -33,8 +33,8 @@ const Header = () => (
         </div>
 
         <div className="tag-cmp app__flex">
-          <p className="p-text">University Student</p>
-          <p className="p-text">Software Developer</p>
+          <p className="p-text">Corporate Student</p>
+          <p className="p-text">Business Informatics @ SAP SE</p>
         </div>
       </div>
     </motion.div>
@@ -44,7 +44,13 @@ const Header = () => (
       transition={{ duration: 0.5, delayChildren: 0.5 }}
       className="app__header-img"
     >
-      <img src={images.profile} alt="profile_bg" />
+      <motion.img
+        whileInView={{ scale: [0, 1] }}
+        transition={{ duration: 1.5, ease: 'easeInOut' }}
+        src={images.bewerbungsfoto}
+        alt="profile"
+        className="profile"
+      />
       <motion.img
         whileInView={{ scale: [0, 1] }}
         transition={{ duration: 1, ease: 'easeInOut' }}
@@ -59,7 +65,7 @@ const Header = () => (
       whileInView={scaleVariants.whileInView}
       className="app__header-circles"
     >
-      {[images.git, images.python, images.react].map((circle, index) => (
+      {[images.DHBWLogo, images.SapLogo, images.schoolIcon].map((circle, index) => (
         <div className="circle-cmp app__flex" key={`circle-${index}`}>
           <img src={circle} alt="profile_bg" />
         </div>

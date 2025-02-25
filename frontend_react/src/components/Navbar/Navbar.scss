@@ -6,8 +6,8 @@
   align-items: center;
 
   padding: 1rem 2rem;
-  background: rgba(43, 38, 45, 0.25);
-  box-shadow: 0 8px 32px 0 rgba( 100, 114, 149, 0.37 );
+  background: var(--white-color);
+  box-shadow: 0 8px 32px 0 rgba(78, 79, 79, 0.37);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
   border: 1px solid rgba(0, 0, 0, 0.18);
@@ -55,7 +55,7 @@
     }
 
     a {
-      color: var(--gray-color);
+      color: var(--secondary-color);
       text-decoration: none;
       flex-direction: column;
 
@@ -147,7 +147,7 @@
         margin: 1rem;
 
         a {
-          color: var(--gray-color);
+          color: var(--secondary-color);
           text-decoration: none;
           font-size: 1rem;
           text-transform: uppercase;

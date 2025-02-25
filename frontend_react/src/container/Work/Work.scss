@@ -16,8 +16,8 @@
   .app__work-filter-item {
     padding: 0.5rem 1rem;
     border-radius: 0.5rem;
-    background-color: var(--lightGray-color);
-    color: var(--black-color);
+    background-color: var(--gray-color);
+    color: var(--white-color);
     font-weight: 800;
 
     cursor: pointer;
@@ -61,7 +61,7 @@
     transition: all 0.3s ease;
 
     &:hover {
-      box-shadow: 0 0 35px rgba(242, 235, 229, 0.5);
+      box-shadow: 0 0 35px rgba(109, 107, 208, 0.5);
     }
 
     @media screen and (min-width: 2000px) {
@@ -139,6 +139,7 @@
   h4 {
     margin-top: 1rem;
     line-height: 1.5;
+    color: var(--secondary-color) !important;
 
     @media screen and (min-width: 2000px) {
       margin-top: 3rem;
@@ -147,6 +148,7 @@
 
   p {
     color: var(--primary-color);
+    text-align: center;
   }
 
   .app__work-tag {
@@ -154,7 +156,7 @@
 
     padding: 0.5rem 1rem;
     border-radius: 10px;
-    background-color: var(--black-color);
+    background-color: var(--white-color);
     top: -25px;
 
     p {

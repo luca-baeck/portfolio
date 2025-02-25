@@ -1,6 +1,6 @@
 #home {
   position: relative;
-  background: url("../../assets/bgIMG.jpg");
+  background: url("../../assets/bgWhite.png");
   background-size: cover;
   background-position: center;
   background-repeat: repeat;
@@ -115,6 +115,7 @@
     img {
       width: 60%;
       height: 60%;
+      object-fit: contain;
     }
   }
 
@@ -168,16 +169,17 @@
 .app__header-img {
   flex: 1;
   height: 100%;
+  width: 100%;
 
   display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
+  justify-content: center;
+  align-items: center;
   position: relative;
 
   img {
-    width: 100%;
+    width: 50%;
     height: 50%;
-    margin-bottom: 30%;
+    margin-top: 15%;
     object-fit: contain;
     z-index: 1;
   }

@@ -19,7 +19,7 @@
   align-items: flex-start;
   flex-direction: column;
   margin: 2rem;
-  background-color: var(--black-color);
+  background-color: var(--lightGray-color);
   padding: 1rem;
   border-radius: 0.5rem;
 
@@ -28,11 +28,11 @@
   }
 
   p {
-    color: var(--lightGray-color);
+    color: var(--white-color);
   }
 
   h2 {
-    color: var(--white-color);
+    color: var(--secondary-color);
   }
 
   img {
@@ -75,7 +75,7 @@
   text-decoration: none;
   p {
     transition: all 1s ease-in-out;
-    color: var(--secondary-color);
+    color: var(--white-color);
   }
 }
 

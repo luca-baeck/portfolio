@@ -35,6 +35,14 @@ import nb from '../assets/nb.png';
 import skype from '../assets/skype.png';
 import spotify from '../assets/spotify.png';
 
+import DHBWLogo from '../assets/DHBWLogo.png';
+import SapLogo from '../assets/SapLogo.png';
+
+import flashcardsLogo from '../assets/flashcards_logo.png';
+import schoolIcon from '../assets/school_icon.png';
+
+import bewerbungsfoto from '../assets/bewerbungsfoto.png';
+
 export default {
   email,
   mobile,
@@ -69,4 +77,9 @@ export default {
   nb,
   skype,
   spotify,
+  DHBWLogo,
+  SapLogo,
+  flashcardsLogo,
+  schoolIcon,
+  bewerbungsfoto,
 };
