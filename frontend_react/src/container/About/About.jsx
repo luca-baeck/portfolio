@@ -23,14 +23,14 @@ const About = () => {
       <h2 className="head-text">
         About <span>me</span> <br /> <span> </span>
       </h2>
-      <a
+      {/* <a
         className="app__profile-download"
         role="link"
         aria-disabled="true"
         download
       >
         Curriculum Vitae
-      </a>
+      </a> */}
       <div className="app__profiles">
 
         {abouts.map((about, index) => (
